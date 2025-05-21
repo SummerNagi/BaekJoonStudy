@@ -6,4 +6,8 @@
 
 Push Statistics:
 
+| Contributor | Pushes |
+| ----------- | ------ |
+| shinhong-gyu | 7 |
+
 Some concluding text.
