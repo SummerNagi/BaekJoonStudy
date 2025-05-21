@@ -1,0 +1,50 @@
+# .github/workflows/update_push_stats.yml
+
+name: Update Push Statistics
+
+on:
+  push:
+    branches:
+      - main # main 브랜치에 푸시가 발생할 때마다 실행
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    # 이 워크플로우가 레포지토리 콘텐츠에 쓸 수 있는 권한을 부여
+    permissions:
+      contents: write # 이 줄을 추가합니다.
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # 전체 커밋 히스토리 가져오기
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies (if any)
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Run Python script to update README.md
+      run: python update_readme_stats.py
+      working-directory: .
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        if git diff --exit-code --quiet README.md; then
+          echo "No changes to README.md, skipping commit."
+        else
+          git add README.md
+          git commit -m "Docs: Update push statistics in README.md [skip ci]"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
