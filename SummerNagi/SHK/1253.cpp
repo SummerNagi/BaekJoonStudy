@@ -13,9 +13,9 @@ int main()
 	int N;
 	cin >> N;
 
-	vector<int> arr(N + 1);
+	vector<int> arr(N, 0);
 
-	for (int idx = 1; idx <= N; idx++)
+	for (int idx = 0; idx < N; idx++)
 	{
 		cin >> arr[idx];
 	}
@@ -24,10 +24,10 @@ int main()
 
 	int goodNumCount = 0;
 
-	for (int i = 3; i <= N; i++)
+	for (int i = 0; i < N; i++)
 	{
-		int s = 1;
-		int e = i - 1;
+		int s = 0;
+		int e = N - 1;
 
 		while (s < e)
 		{
@@ -47,16 +47,18 @@ int main()
 					e--;
 				}
 			}
-			else if (arr[s] + arr[e] > arr[i])
-			{
-				e--;
-			}
+
 			else if (arr[s] + arr[e] < arr[i])
 			{
 				s++;
+			}
+			else
+			{
+				e--;
 			}
 		}
 	}
 
 	cout << goodNumCount;
+
 }
