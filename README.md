@@ -9,5 +9,6 @@ Push Statistics:
 | Contributor | Pushes |
 | ----------- | ------ |
 | shinhong-gyu | 8 |
+| nimnoeyheel | 1 |
 
 Some concluding text.
