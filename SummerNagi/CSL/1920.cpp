@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+int b1920()
 {
     std::cin.tie(0);
     std::cin.sync_with_stdio(false);
