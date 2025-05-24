@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int findCount(vector<int>& lst, int mid)
+static int findCount(vector<int>& lst, int mid)
 {
     int count = 1;
     int start = lst[0];
