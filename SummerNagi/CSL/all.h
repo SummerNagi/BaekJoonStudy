@@ -1,6 +1,9 @@
 #pragma once
 
-#include "./1920.cpp"
-#include "./1253.cpp"
-#include "./2110.cpp"
-#include "./11659.cpp"
+int b1253();
+int b1920();
+int b2110();
+int b11003();
+int b11659();
+int b2750();
+int b11724();
