@@ -24,7 +24,8 @@ int findCount(vector<int>& lst, int mid)
     return (count);
 }
 
-int b2110() {
+int b2110() 
+{
     std::cin.tie(0);
     std::cin.sync_with_stdio(false);
     std::ios_base::sync_with_stdio(false);
