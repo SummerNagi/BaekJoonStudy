@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-	ios::sync_with_stdio;
+	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
@@ -20,11 +20,11 @@ int main() {
 	{
 		cin >> A[i];
 
-		while (!dq.empty() && dq.back().first > A[i])dq.pop_back();
+		while (!dq.empty() && dq.back().first >= A[i])dq.pop_back();
 
 		dq.emplace_back(A[i], i);
 
-		while (!dq.empty() && dq.front().second < i - L)dq.pop_front();
+		while (!dq.empty() && dq.front().second <= i - L)dq.pop_front();
 
 		cout << dq.front().first << " ";
 
