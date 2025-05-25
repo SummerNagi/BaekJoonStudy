@@ -18,5 +18,11 @@
     <ClCompile Include="구간 합 구하기 4.cc">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1253Good.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11003.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
