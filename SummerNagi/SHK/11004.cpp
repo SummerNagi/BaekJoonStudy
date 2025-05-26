@@ -14,19 +14,22 @@ int Partition(vector<int>& arr, int s, int e)
 		return 1;
 	}
 
-	int low = s;
+	int low = s + 1;
 	int high = e;
 	int p = (s + e) / 2;
-	int pivot = arr[p];
+
+	swap(arr[s], arr[p]);
+
+	int pivot = arr[s];
 
 	while (low <= high)
 	{
-		while (arr[high] > pivot && low < high)
+		while (arr[high] > pivot && low <= high)
 		{
 			high--;
 		}
 
-		while (arr[low] < pivot && low < high)
+		while (arr[low] < pivot && low <= high)
 		{
 			low++;
 		}
@@ -67,8 +70,6 @@ void QuickSort(vector<int>& arr, int start, int end, int K)
 	{
 		QuickSort(arr, pivot + 1, end, K);
 	}
-
-
 }
 
 
