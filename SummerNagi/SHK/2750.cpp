@@ -18,7 +18,7 @@
 // 	{
 // 		int temp;
 // 		cin >> temp;
-// 		m[temp] = 1;
+// 		m[temp]++;
 // 	}
 // 
 // 	for (map<int, int>::iterator it = m.begin(); it != m.end(); it++)
@@ -35,6 +35,4 @@
 // 			cout << it->first << "\n";
 // 		}
 // 	}
-// 
-// 
 // }

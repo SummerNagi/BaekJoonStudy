@@ -41,5 +41,6 @@ int b11724()
     }
 
     cout << st.size() << endl;
+
     return (0);
 }
