@@ -13,21 +13,20 @@ int main() {
 	int N, L;
 	cin >> N >> L;
 	deque<pair<int, int>> dq;
-	vector<int>A(N);
 
 
 	for (int i = 0; i < N; i++)
 	{
-		cin >> A[i];
+		int num = 0;
+		cin >> num;
 
-		while (!dq.empty() && dq.back().first >= A[i])dq.pop_back();
+		while (!dq.empty() && dq.back().first >= num)dq.pop_back();
 
-		dq.emplace_back(A[i], i);
+		dq.emplace_back(num, i);
 
 		while (!dq.empty() && dq.front().second <= i - L)dq.pop_front();
 
 		cout << dq.front().first << " ";
-
 	}
 
 	return 0;

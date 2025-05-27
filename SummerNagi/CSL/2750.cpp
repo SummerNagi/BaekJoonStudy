@@ -31,5 +31,6 @@ int b2750()
     {
         cout << num << endl;
     }
+
     return (0);
 }

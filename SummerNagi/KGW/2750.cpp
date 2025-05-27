@@ -12,8 +12,10 @@ int main()
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+	
 	int a[1001];
 	cin >> N;
+
 	for (int i = 0; i < N; ++i)
 	{
 		cin >> a[i];

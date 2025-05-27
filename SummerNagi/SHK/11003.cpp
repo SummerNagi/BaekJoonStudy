@@ -5,12 +5,14 @@
 // using namespace std;
 // 
 // int a[5000010];
+// 
 // deque<pair<int, int>> d;
 // 
-// int main() 
+// int main()
 // {
 // 
 // 	int N, L;
+// 
 // 	scanf("%d %d", &N, &L);
 // 
 // 	for (int i = 0; i < N; i++)
