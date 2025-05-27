@@ -25,7 +25,7 @@ int main()
 
 	int minTime = 2147483647;
 	int minHeight = 0;
-	for (int targetHeight = 0; targetHeight <= 256; targetHeight++)
+	for (int targetHeight = 0; targetHeight < 257; targetHeight++)
 	{
 		int time = 0;
 		int block = B;
@@ -56,7 +56,7 @@ int main()
 			continue;
 		}
 
-		if (time < minTime)
+		if (time <= minTime)
 		{
 			minTime = time;
 			minHeight = targetHeight;
