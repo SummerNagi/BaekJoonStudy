@@ -8,7 +8,7 @@ Push Statistics:
 
 | Contributor | Pushes |
 | ----------- | ------ |
-| shinhong-gyu | 24 |
+| shinhong-gyu | 25 |
 | nimnoeyheel | 22 |
 | flatload | 11 |
 | yagae12 | 9 |
