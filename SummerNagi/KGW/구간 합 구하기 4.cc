@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int aplus()
 {
 
     ios::sync_with_stdio(false);

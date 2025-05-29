@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+int a11003() {
 
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);

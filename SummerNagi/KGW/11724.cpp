@@ -15,7 +15,7 @@ void dfs(int node) {
     }
 }
 
-int main() {
+int a11724() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);

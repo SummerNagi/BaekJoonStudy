@@ -129,8 +129,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="11003.cpp" />
+    <ClCompile Include="11399.cpp" />
     <ClCompile Include="11724.cpp" />
     <ClCompile Include="1253Good.cpp" />
+    <ClCompile Include="1427.cpp" />
     <ClCompile Include="2750.cpp" />
     <ClCompile Include="구간 합 구하기 4.cc" />
   </ItemGroup>
