@@ -137,7 +137,9 @@
     <ClCompile Include="1253.cpp" />
     <ClCompile Include="1389.cpp" />
     <ClCompile Include="18111.cpp" />
+    <ClCompile Include="1920.cpp" />
     <ClCompile Include="2178.cpp" />
+    <ClCompile Include="2343.cpp" />
     <ClCompile Include="2750.cpp" />
     <ClCompile Include="색종이 접기.cpp" />
   </ItemGroup>
