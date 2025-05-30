@@ -6,7 +6,7 @@ using namespace std;
 int N, cnt;
 
 
-int main()
+int a2750()
 {
 
 	ios::sync_with_stdio(false);

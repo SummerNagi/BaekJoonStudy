@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+int aaa() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
