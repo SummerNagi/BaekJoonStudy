@@ -14,7 +14,7 @@
 // 	int N;
 // 	cin >> N;
 // 
-// 	priority_queue<int,vector<int>,greater<int>> pq;
+// 	priority_queue<int, vector<int>, greater<int>> pq;
 // 
 // 	vector<int> sortCount;
 // 
@@ -52,11 +52,11 @@
 // 		}
 // 	}
 // 
-// 	int answer =0;
+// 	int answer = 0;
 // 
 // 	for (auto n : sortCount)
 // 	{
-// 		answer+= n;
+// 		answer += n;
 // 	}
 // 
 // 	cout << answer;
