@@ -142,6 +142,7 @@
     <ClCompile Include="1874.cpp" />
     <ClCompile Include="2018.cpp" />
     <ClCompile Include="2750.cpp" />
+    <ClCompile Include="2751.cpp" />
     <ClCompile Include="ColoredPaperFolding.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
