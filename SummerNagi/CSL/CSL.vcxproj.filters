@@ -90,6 +90,9 @@
     <ClCompile Include="1931.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="28278.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="all.h">
