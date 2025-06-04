@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int a11399()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -40,8 +40,8 @@ int main()
 	int Sum = 0;
 	for (int i = 0; i < N; i++) {
 		Sum += S[i];
-
-		cout << Sum << "\n";
-
-		return 0;
 	}
+	cout << Sum << "\n";
+
+	return 0;
+}
