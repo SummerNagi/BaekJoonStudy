@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main()
+int a1931()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
