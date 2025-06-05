@@ -15,6 +15,7 @@ struct cmp
 
 int b1931()
 {
+    
     int N = 0;
     cin >> N;
     priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> pque;
