@@ -10,7 +10,7 @@ Push Statistics:
 | ----------- | ------ |
 | shinhong-gyu | 35 |
 | nimnoeyheel | 27 |
-| flatload | 25 |
+| flatload | 26 |
 | yagae12 | 14 |
 
 Some concluding text.
