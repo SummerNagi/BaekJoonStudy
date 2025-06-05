@@ -5,7 +5,7 @@
 // 
 // using namespace std;
 // 
-// bool IsPalindrom(const string& str)
+// bool IsPalindrome(const string& str)
 // {
 // 	if (str.size() == 1 || str.size() == 0)
 // 	{
