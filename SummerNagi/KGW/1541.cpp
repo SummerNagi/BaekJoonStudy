@@ -27,7 +27,7 @@ private:
 
 };
 
-int main() {
+int a1541() {
 
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);

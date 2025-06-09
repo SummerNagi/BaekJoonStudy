@@ -37,7 +37,7 @@ int a1931()
 		if (A[i].second >= last )
 		{
 		 last = A[i].first;
-
+		 
 		 count++;
 		} 
 	}
