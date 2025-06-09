@@ -14,7 +14,7 @@
 // 
 // 	if (str[0] == str[str.size() - 1])
 // 	{
-// 		return IsPalindrom(str.substr(1, str.length() - 2));
+// 		return IsPalindrome(str.substr(1, str.length() - 2));
 // 	}
 // 	else
 // 	{
@@ -36,7 +36,7 @@
 // 	isPrime[0] = false;
 // 	isPrime[1] = false;
 // 
-// 	for(int i = 2; i <= 1003001; i++)
+// 	for (int i = 2; i <= 1003001; i++)
 // 	{
 // 		if (isPrime[i] == true)
 // 		{
@@ -49,7 +49,7 @@
 // 
 // 	for (int i = N; i <= 1003001; i++)
 // 	{
-// 		if (IsPalindrom(to_string(i)) && isPrime[i])
+// 		if (IsPalindrome(to_string(i)) && isPrime[i])
 // 		{
 // 			cout << i;
 // 			return 0;

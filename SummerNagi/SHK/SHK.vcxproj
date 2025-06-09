@@ -151,6 +151,7 @@
     <ClCompile Include="2667.cpp" />
     <ClCompile Include="2750.cpp" />
     <ClCompile Include="30804.cpp" />
+    <ClCompile Include="5525.cpp" />
     <ClCompile Include="색종이 접기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
