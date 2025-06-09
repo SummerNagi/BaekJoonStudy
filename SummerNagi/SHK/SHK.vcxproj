@@ -133,18 +133,24 @@
     <ClCompile Include="11403.cpp" />
     <ClCompile Include="11659.cpp" />
     <ClCompile Include="1167.cpp" />
+    <ClCompile Include="11689.cpp" />
     <ClCompile Include="11718.cpp" />
     <ClCompile Include="11722.cpp" />
     <ClCompile Include="11724.cpp" />
     <ClCompile Include="1253.cpp" />
     <ClCompile Include="1389.cpp" />
+    <ClCompile Include="1456.cpp" />
     <ClCompile Include="1541.cpp" />
     <ClCompile Include="1715.cpp" />
+    <ClCompile Include="1747.cpp" />
     <ClCompile Include="18111.cpp" />
     <ClCompile Include="1920.cpp" />
+    <ClCompile Include="1929.cpp" />
     <ClCompile Include="2178.cpp" />
     <ClCompile Include="2343.cpp" />
+    <ClCompile Include="2667.cpp" />
     <ClCompile Include="2750.cpp" />
+    <ClCompile Include="30804.cpp" />
     <ClCompile Include="색종이 접기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
