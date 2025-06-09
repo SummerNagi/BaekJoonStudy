@@ -20,18 +20,23 @@
 // 	{
 // 		if (N % p == 0)
 // 		{
-// 			count = count - count / p;
+// 			count -= (count / p);
 // 
 // 			while (N % p == 0)
 // 			{
 // 				N /= p;
 // 			}
 // 		}
+// 
+// 		if (N == 1)
+// 		{
+// 			break;
+// 		}
 // 	}
 // 
 // 	if (N > 1)
 // 	{
-// 		count = count - count / N;
+// 		count -= (count / N);
 // 	}
 // 
 // 	cout << count;
