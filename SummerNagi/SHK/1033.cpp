@@ -84,15 +84,15 @@
 // 		}
 // 	}
 // 
-// 	ll SSIBAL = masses[0];
+// 	ll gcdValue = masses[0];
 // 
 // 	for (int i = 1; i < masses.size(); i++)
 // 	{
-// 		SSIBAL = gcd(SSIBAL, masses[i]);
+// 		gcdValue = gcd(gcdValue, masses[i]);
 // 	}
 // 
 // 	for (ll mass : masses)
 // 	{
-// 		cout << mass / SSIBAL << " ";
+// 		cout << mass / gcdValue << " ";
 // 	}
 // }
