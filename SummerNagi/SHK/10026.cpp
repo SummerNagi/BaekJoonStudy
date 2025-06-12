@@ -153,6 +153,8 @@ int main()
 
 			}
 			preColor = colorBlindImg[i][j];
+			preX = j;
+			preY = i;
 		}
 	}
 
