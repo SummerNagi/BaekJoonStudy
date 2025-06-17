@@ -8,7 +8,7 @@ int b11059()
 {
     string s = "";
     cin >> s;
-    int s_len = s.size();
+    int s_len = (int)s.size();
 
     vector<int> add_arr(s_len + 1, 0);
     for (int i = 0; i < s_len; ++i)
