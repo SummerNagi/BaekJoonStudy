@@ -1,37 +1,46 @@
 #include <iostream>
-#include <queue>
 #include <set>
 
 using namespace std;
 
-template<class T,
-    class Container = std::vector<T>,
-    class Compare = std::less<T>>
-    class qu : public std::priority_queue<T, Container, Compare>
+void playCase()
 {
-public:
-    qu() : std::priority_queue<T, Container, Compare>() {}
+	multiset<int> st;
+	int N = 0;
+	cin >> N;
+	cout << N / 2 + 1 << endl;
+	int num = 0;
+	cin >> num;
+	st.insert(num);
+	cout << *st.begin() << " ";
 
-    void show()
-    {
-        for (int i = 0; i < this->c.size(); ++i)
-        {
-            cout << this->c[i] << endl;
-        }
-    }
-};
+	for (int i = 2; i <= N; ++i)
+	{
+		int num = 0;
+		cin >> num;
+		st.insert(num);
+		if (i & 1)
+		{
+			multiset<int>::iterator mid = st.begin();
+			for (int j = 0; j < i / 2; ++j)
+			{
+				++mid;
+			}
+			cout << *mid << " ";
+		}
+	}
+	cout << endl;
+}
 
 int b2696()
 {
-    qu<int> a;
-    a.push(1);
-    a.push(2);
-    a.push(3);
-    a.push(4);
-    a.push(5);
-    a.push(-1);
-    a.push(-3);
+	int round = 0;
+	cin >> round;
 
-    a.show();
-    return 0;
+	for (int i = 0; i < round; ++i)
+	{
+		playCase();
+	}
+
+	return (0);
 }
