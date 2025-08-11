@@ -145,6 +145,8 @@
     <ClCompile Include="11724.cpp" />
     <ClCompile Include="11725.cpp" />
     <ClCompile Include="1253.cpp" />
+    <ClCompile Include="12865.cpp" />
+    <ClCompile Include="13305.cpp" />
     <ClCompile Include="13549.cpp" />
     <ClCompile Include="1389.cpp" />
     <ClCompile Include="1456.cpp" />
