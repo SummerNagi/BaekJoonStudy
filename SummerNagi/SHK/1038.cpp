@@ -1,5 +1,4 @@
 //#include <iostream>
-<<<<<<< Updated upstream
 //#include <cmath>
 //#include <string>
 //#include <algorithm>
@@ -13,7 +12,6 @@
 //string num = "";
 //
 //bool IsDecs(string str)
-=======
 //#include <vector>
 //#include <queue>
 //#include <string>
@@ -22,7 +20,6 @@
 //using namespace std;
 //
 //bool IsDecs(const string& str)
->>>>>>> Stashed changes
 //{
 //	if (str.length() == 1)
 //	{
@@ -31,16 +28,12 @@
 //
 //	for (int i = 0; i < str.length() - 1; i++)
 //	{
-<<<<<<< Updated upstream
 //		if (str[i] <= str[i + 1])
-=======
 //		if (str[i] - '0' < str[i + 1] - '0')
->>>>>>> Stashed changes
 //		{
 //			return false;
 //		}
 //	}
-<<<<<<< Updated upstream
 //	return true;
 //}
 //
@@ -69,12 +62,10 @@
 //		num.pop_back();
 //	}
 //}
-=======
 //
 //	return true;
 //}
 //
->>>>>>> Stashed changes
 //
 //int main()
 //{
@@ -82,7 +73,6 @@
 //	cin.tie(NULL);
 //	cout.tie(NULL);
 //
-<<<<<<< Updated upstream
 //	cin >> N;
 //
 //	if (N == 0)
@@ -92,7 +82,6 @@
 //	}
 //
 //	solve(0);
-=======
 //	int N;
 //	cin >> N;
 //
@@ -154,5 +143,4 @@
 //	}
 //
 //	cout << -1;
->>>>>>> Stashed changes
 //}

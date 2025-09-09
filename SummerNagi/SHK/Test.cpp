@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 // #include <iostream>
 // 
 // using namespace std;
@@ -42,4 +40,3 @@
 // 	b->func();
 // 	a->func();
 // }
->>>>>>> Stashed changes

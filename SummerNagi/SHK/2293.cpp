@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 // #include <iostream>
 // #include <string>
 // #include <vector>
@@ -106,8 +104,6 @@
 // 		cout << "\n";
 // 	}
 // }
-=======
->>>>>>> Stashed changes
  //#include <iostream>
  //#include <vector>
  //
@@ -162,9 +158,5 @@
  //
  //
  //	cout << dp[K];
-<<<<<<< Updated upstream
  //}
-=======
  //}
->>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
->>>>>>> Stashed changes

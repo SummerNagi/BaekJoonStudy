@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 // #include <iostream>
 // #include <vector>
 // #include <algorithm>
@@ -66,8 +64,6 @@
 // 	cout << *max_element(dp.begin(), dp.end());
 // }
 // 
-=======
->>>>>>> Stashed changes
 //#include <iostream>
 //#include <vector>
 //
@@ -153,7 +149,3 @@
 //	cout << *max_element(dp.begin(), dp.end());
 //}
 //
-<<<<<<< Updated upstream
-=======
->>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
->>>>>>> Stashed changes

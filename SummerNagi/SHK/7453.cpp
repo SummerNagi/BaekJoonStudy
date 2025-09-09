@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 //#include <iostream>
 //#include <vector>
 //#include <set>
@@ -72,7 +71,6 @@
 //
 //	cout << answer;
 //}
-=======
 // #include <iostream>
 // #include <vector>
 // #include <set>
@@ -164,4 +162,3 @@
 // 	}
 // 	cout << count;
 // }
->>>>>>> Stashed changes

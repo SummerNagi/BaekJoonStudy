@@ -1,9 +1,6 @@
 // #include <iostream>
 // #include <vector>
-<<<<<<< Updated upstream
-=======
 // #include <climits>
->>>>>>> Stashed changes
 // 
 // using namespace std;
 // 
@@ -18,7 +15,6 @@
 // 
 // 	cin >> N >> M;
 // 
-<<<<<<< Updated upstream
 // 	vector<long long> S(N + 1);
 // 
 // 	S[0] = 0;
@@ -82,7 +78,6 @@
 // 	}
 // 
 // 	if (len == INT_MAX)
-=======
 // 	vector<int> V(N);
 // 
 // 	int start = 0;
@@ -111,7 +106,6 @@
 // 	}
 // 
 // 	if (len == 100001)
->>>>>>> Stashed changes
 // 	{
 // 		cout << 0;
 // 	}
@@ -120,11 +114,8 @@
 // 		cout << len;
 // 	}
 // 
-<<<<<<< Updated upstream
 // }
 // 
 // // 1 2 3 16 20
 // // 0 1 3 6 22 42
-=======
 // }
->>>>>>> Stashed changes

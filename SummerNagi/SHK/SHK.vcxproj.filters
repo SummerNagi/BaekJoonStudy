@@ -1,454 +1,141 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="11659.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11722.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1253.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11003.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2750.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11724.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11004.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2178.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18111.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10989.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1167.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1389.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="색종이 접기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1920.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2343.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1715.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11718.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11403.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1541.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1929.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1456.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1747.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11689.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="30804.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2667.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5525.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1934.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1850.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1033.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18352.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1707.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2251.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1717.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1976.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1043.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15650.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10026.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1016.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="16953.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="16928.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15652.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15654.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7662.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11725.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11053.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15663.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15666.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1149.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1629.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1932.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1991.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2096.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13549.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9653.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="31429.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15372.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    <ClCompile Include="1806.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="27959.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11054.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10942.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2444.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14888.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15686.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1759.cpp">
-=======
->>>>>>> Stashed changes
-    <ClCompile Include="9465.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1916.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1753.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12865.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13305.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2559.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2166.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="32291.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2042.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1106.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1904.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2467.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9251.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9252.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1958.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5582.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1806.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="17404.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2565.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11066.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11049.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1520.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2629.cpp">
-<<<<<<< Updated upstream
-=======
->>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
->>>>>>> Stashed changes
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2293.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    <ClCompile Include="7453.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="27172.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1915.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15989.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2133.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15486.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2011.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9084.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2023.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2631.cpp">
-=======
->>>>>>> Stashed changes
-    <ClCompile Include="7579.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9663.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2580.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2294.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2225.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1516.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5557.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12015.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1300.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7453.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1351.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4811.cpp">
-<<<<<<< Updated upstream
-=======
->>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
->>>>>>> Stashed changes
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13398.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    <ClCompile Include="1038.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1092.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14728.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13023.cpp">
-=======
->>>>>>> Stashed changes
-    <ClCompile Include="2240.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12869.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1038.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2470.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19532.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1011.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1517.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1744.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1202.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2437.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1339.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12904.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11000.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2812.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1461.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="21568.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3955.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1799.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2212.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14003.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13164.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1325.cpp">
-<<<<<<< Updated upstream
-=======
->>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
->>>>>>> Stashed changes
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClCompile Include="10026.cpp" />
+    <ClCompile Include="1011.cpp" />
+    <ClCompile Include="1016.cpp" />
+    <ClCompile Include="1033.cpp" />
+    <ClCompile Include="1038.cpp" />
+    <ClCompile Include="1043.cpp" />
+    <ClCompile Include="1092.cpp" />
+    <ClCompile Include="10942.cpp" />
+    <ClCompile Include="10989.cpp" />
+    <ClCompile Include="11000.cpp" />
+    <ClCompile Include="11003.cpp" />
+    <ClCompile Include="11004.cpp" />
+    <ClCompile Include="11049.cpp" />
+    <ClCompile Include="11066.cpp" />
+    <ClCompile Include="11053.cpp" />
+    <ClCompile Include="1106.cpp" />
+    <ClCompile Include="11054.cpp" />
+    <ClCompile Include="11403.cpp" />
+    <ClCompile Include="1149.cpp" />
+    <ClCompile Include="11659.cpp" />
+    <ClCompile Include="1167.cpp" />
+    <ClCompile Include="11689.cpp" />
+    <ClCompile Include="11718.cpp" />
+    <ClCompile Include="11722.cpp" />
+    <ClCompile Include="11724.cpp" />
+    <ClCompile Include="11725.cpp" />
+    <ClCompile Include="12015.cpp" />
+    <ClCompile Include="1202.cpp" />
+    <ClCompile Include="1253.cpp" />
+    <ClCompile Include="13023.cpp" />
+    <ClCompile Include="12865.cpp" />
+    <ClCompile Include="12869.cpp" />
+    <ClCompile Include="12904.cpp" />
+    <ClCompile Include="1300.cpp" />
+    <ClCompile Include="13164.cpp" />
+    <ClCompile Include="1325.cpp" />
+    <ClCompile Include="13305.cpp" />
+    <ClCompile Include="1339.cpp" />
+    <ClCompile Include="13398.cpp" />
+    <ClCompile Include="1351.cpp" />
+    <ClCompile Include="13549.cpp" />
+    <ClCompile Include="1389.cpp" />
+    <ClCompile Include="14003.cpp" />
+    <ClCompile Include="1456.cpp" />
+    <ClCompile Include="14728.cpp" />
+    <ClCompile Include="14888.cpp" />
+    <ClCompile Include="1461.cpp" />
+    <ClCompile Include="1516.cpp" />
+    <ClCompile Include="1517.cpp" />
+    <ClCompile Include="1520.cpp" />
+    <ClCompile Include="15372.cpp" />
+    <ClCompile Include="1541.cpp" />
+    <ClCompile Include="15486.cpp" />
+    <ClCompile Include="15650.cpp" />
+    <ClCompile Include="15652.cpp" />
+    <ClCompile Include="15654.cpp" />
+    <ClCompile Include="15663.cpp" />
+    <ClCompile Include="15666.cpp" />
+    <ClCompile Include="15686.cpp" />
+    <ClCompile Include="15989.cpp" />
+    <ClCompile Include="17404.cpp" />
+    <ClCompile Include="1744.cpp" />
+    <ClCompile Include="1799.cpp" />
+    <ClCompile Include="19532.cpp" />
+    <ClCompile Include="1958.cpp" />
+    <ClCompile Include="21568.cpp" />
+    <ClCompile Include="2212.cpp" />
+    <ClCompile Include="2225.cpp" />
+    <ClCompile Include="2240.cpp" />
+    <ClCompile Include="2293.cpp" />
+    <ClCompile Include="2294.cpp" />
+    <ClCompile Include="2437.cpp" />
+    <ClCompile Include="2470.cpp" />
+    <ClCompile Include="2565.cpp" />
+    <ClCompile Include="2580.cpp" />
+    <ClCompile Include="2629.cpp" />
+    <ClCompile Include="2812.cpp" />
+    <ClCompile Include="3955.cpp" />
+    <ClCompile Include="4811.cpp" />
+    <ClCompile Include="5557.cpp" />
+    <ClCompile Include="5582.cpp" />
+    <ClCompile Include="7579.cpp" />
+    <ClCompile Include="9251.cpp" />
+    <ClCompile Include="1629.cpp" />
+    <ClCompile Include="16928.cpp" />
+    <ClCompile Include="16953.cpp" />
+    <ClCompile Include="1707.cpp" />
+    <ClCompile Include="1715.cpp" />
+    <ClCompile Include="1717.cpp" />
+    <ClCompile Include="1747.cpp" />
+    <ClCompile Include="1753.cpp" />
+    <ClCompile Include="18111.cpp" />
+    <ClCompile Include="1904.cpp" />
+    <ClCompile Include="1916.cpp" />
+    <ClCompile Include="1759.cpp" />
+    <ClCompile Include="1806.cpp" />
+    <ClCompile Include="1915.cpp" />
+    <ClCompile Include="18352.cpp" />
+    <ClCompile Include="1850.cpp" />
+    <ClCompile Include="1920.cpp" />
+    <ClCompile Include="1929.cpp" />
+    <ClCompile Include="1932.cpp" />
+    <ClCompile Include="1934.cpp" />
+    <ClCompile Include="1976.cpp" />
+    <ClCompile Include="1991.cpp" />
+    <ClCompile Include="2166.cpp" />
+    <ClCompile Include="2011.cpp" />
+    <ClCompile Include="2023.cpp" />
+    <ClCompile Include="2133.cpp" />
+    <ClCompile Include="2042.cpp" />
+    <ClCompile Include="2096.cpp" />
+    <ClCompile Include="2178.cpp" />
+    <ClCompile Include="2251.cpp" />
+    <ClCompile Include="2343.cpp" />
+    <ClCompile Include="2467.cpp" />
+    <ClCompile Include="2444.cpp" />
+    <ClCompile Include="2631.cpp" />
+    <ClCompile Include="2559.cpp" />
+    <ClCompile Include="2667.cpp" />
+    <ClCompile Include="27172.cpp" />
+    <ClCompile Include="2750.cpp" />
+    <ClCompile Include="27959.cpp" />
+    <ClCompile Include="30804.cpp" />
+    <ClCompile Include="31429.cpp" />
+    <ClCompile Include="32291.cpp" />
+    <ClCompile Include="5525.cpp" />
+    <ClCompile Include="7453.cpp" />
+    <ClCompile Include="7662.cpp" />
+    <ClCompile Include="9084.cpp" />
+    <ClCompile Include="9252.cpp" />
+    <ClCompile Include="9465.cpp" />
+    <ClCompile Include="9653.cpp" />
+    <ClCompile Include="9663.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="색종이 접기.cpp" />
+    <ClCompile Include="1781.cpp" />
   </ItemGroup>
 </Project>
