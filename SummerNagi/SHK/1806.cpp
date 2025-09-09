@@ -1,5 +1,9 @@
 // #include <iostream>
 // #include <vector>
+<<<<<<< Updated upstream
+=======
+// #include <climits>
+>>>>>>> Stashed changes
 // 
 // using namespace std;
 // 
@@ -14,6 +18,7 @@
 // 
 // 	cin >> N >> M;
 // 
+<<<<<<< Updated upstream
 // 	vector<long long> S(N + 1);
 // 
 // 	S[0] = 0;
@@ -77,6 +82,36 @@
 // 	}
 // 
 // 	if (len == INT_MAX)
+=======
+// 	vector<int> V(N);
+// 
+// 	int start = 0;
+// 	int end = 0;
+// 	int len = 100001;
+// 	long long section = 0;
+// 
+// 	for (int i = 0; i < N; i++)
+// 	{
+// 		cin >> V[i];
+// 
+// 	}
+// 
+// 
+// 	while (end < N)
+// 	{
+// 		section += V[end];
+// 
+// 		while (section >= M)
+// 		{
+// 			len = min(len, end - start + 1);
+// 			section -= V[start];
+// 			start++;
+// 		}
+// 		end++;
+// 	}
+// 
+// 	if (len == 100001)
+>>>>>>> Stashed changes
 // 	{
 // 		cout << 0;
 // 	}
@@ -85,7 +120,11 @@
 // 		cout << len;
 // 	}
 // 
+<<<<<<< Updated upstream
 // }
 // 
 // // 1 2 3 16 20
 // // 0 1 3 6 22 42
+=======
+// }
+>>>>>>> Stashed changes

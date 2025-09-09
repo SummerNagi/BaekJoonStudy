@@ -133,6 +133,8 @@
     <ClCompile Include="1033.cpp" />
     <ClCompile Include="1038.cpp" />
     <ClCompile Include="1043.cpp" />
+    <ClCompile Include="1092.cpp" />
+    <ClCompile Include="10942.cpp" />
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="11000.cpp" />
     <ClCompile Include="11003.cpp" />
@@ -140,7 +142,15 @@
     <ClCompile Include="11049.cpp" />
     <ClCompile Include="11066.cpp" />
     <ClCompile Include="11053.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="1106.cpp" />
+=======
+<<<<<<< HEAD
+    <ClCompile Include="11054.cpp" />
+=======
+    <ClCompile Include="1106.cpp" />
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="11403.cpp" />
     <ClCompile Include="1149.cpp" />
     <ClCompile Include="11659.cpp" />
@@ -153,6 +163,13 @@
     <ClCompile Include="12015.cpp" />
     <ClCompile Include="1202.cpp" />
     <ClCompile Include="1253.cpp" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <ClCompile Include="13023.cpp" />
+    <ClCompile Include="13398.cpp" />
+=======
+>>>>>>> Stashed changes
     <ClCompile Include="12865.cpp" />
     <ClCompile Include="12869.cpp" />
     <ClCompile Include="12904.cpp" />
@@ -163,21 +180,44 @@
     <ClCompile Include="1339.cpp" />
     <ClCompile Include="13398.cpp" />
     <ClCompile Include="1351.cpp" />
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="13549.cpp" />
     <ClCompile Include="1389.cpp" />
     <ClCompile Include="14003.cpp" />
     <ClCompile Include="1456.cpp" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <ClCompile Include="14728.cpp" />
+    <ClCompile Include="14888.cpp" />
+=======
+>>>>>>> Stashed changes
     <ClCompile Include="1461.cpp" />
     <ClCompile Include="1516.cpp" />
     <ClCompile Include="1517.cpp" />
     <ClCompile Include="1520.cpp" />
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="15372.cpp" />
     <ClCompile Include="1541.cpp" />
+    <ClCompile Include="15486.cpp" />
     <ClCompile Include="15650.cpp" />
     <ClCompile Include="15652.cpp" />
     <ClCompile Include="15654.cpp" />
     <ClCompile Include="15663.cpp" />
     <ClCompile Include="15666.cpp" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <ClCompile Include="15686.cpp" />
+    <ClCompile Include="15989.cpp" />
+=======
+>>>>>>> Stashed changes
     <ClCompile Include="17404.cpp" />
     <ClCompile Include="1744.cpp" />
     <ClCompile Include="1799.cpp" />
@@ -203,6 +243,10 @@
     <ClCompile Include="7453.cpp" />
     <ClCompile Include="7579.cpp" />
     <ClCompile Include="9251.cpp" />
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="1629.cpp" />
     <ClCompile Include="16928.cpp" />
     <ClCompile Include="16953.cpp" />
@@ -210,35 +254,89 @@
     <ClCompile Include="1715.cpp" />
     <ClCompile Include="1717.cpp" />
     <ClCompile Include="1747.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="1753.cpp" />
     <ClCompile Include="18111.cpp" />
     <ClCompile Include="18352.cpp" />
     <ClCompile Include="1850.cpp" />
     <ClCompile Include="1904.cpp" />
     <ClCompile Include="1916.cpp" />
+=======
+<<<<<<< HEAD
+    <ClCompile Include="1759.cpp" />
+    <ClCompile Include="1806.cpp" />
+    <ClCompile Include="18111.cpp" />
+    <ClCompile Include="18352.cpp" />
+    <ClCompile Include="1850.cpp" />
+    <ClCompile Include="1915.cpp" />
+=======
+    <ClCompile Include="1753.cpp" />
+    <ClCompile Include="18111.cpp" />
+    <ClCompile Include="18352.cpp" />
+    <ClCompile Include="1850.cpp" />
+    <ClCompile Include="1904.cpp" />
+    <ClCompile Include="1916.cpp" />
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="1929.cpp" />
     <ClCompile Include="1932.cpp" />
     <ClCompile Include="1934.cpp" />
     <ClCompile Include="1976.cpp" />
     <ClCompile Include="1991.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="2042.cpp" />
     <ClCompile Include="2096.cpp" />
     <ClCompile Include="2166.cpp" />
+=======
+<<<<<<< HEAD
+    <ClCompile Include="2011.cpp" />
+    <ClCompile Include="2023.cpp" />
+    <ClCompile Include="2096.cpp" />
+    <ClCompile Include="2133.cpp" />
+=======
+    <ClCompile Include="2042.cpp" />
+    <ClCompile Include="2096.cpp" />
+    <ClCompile Include="2166.cpp" />
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="2178.cpp" />
     <ClCompile Include="2251.cpp" />
+    <ClCompile Include="2293.cpp" />
     <ClCompile Include="2343.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="2467.cpp" />
     <ClCompile Include="2559.cpp" />
+=======
+<<<<<<< HEAD
+    <ClCompile Include="2444.cpp" />
+    <ClCompile Include="2631.cpp" />
+=======
+    <ClCompile Include="2467.cpp" />
+    <ClCompile Include="2559.cpp" />
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="2667.cpp" />
+    <ClCompile Include="27172.cpp" />
     <ClCompile Include="2750.cpp" />
+    <ClCompile Include="27959.cpp" />
     <ClCompile Include="30804.cpp" />
     <ClCompile Include="31429.cpp" />
     <ClCompile Include="32291.cpp" />
     <ClCompile Include="5525.cpp" />
+    <ClCompile Include="7453.cpp" />
     <ClCompile Include="7662.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="9252.cpp" />
     <ClCompile Include="9465.cpp" />
+=======
+<<<<<<< HEAD
+    <ClCompile Include="9084.cpp" />
+=======
+    <ClCompile Include="9252.cpp" />
+    <ClCompile Include="9465.cpp" />
+>>>>>>> 9869ec9c019dfff234cb193ee1087d3bb8c3e3ba
+>>>>>>> Stashed changes
     <ClCompile Include="9653.cpp" />
     <ClCompile Include="9663.cpp" />
     <ClCompile Include="Test.cpp" />
