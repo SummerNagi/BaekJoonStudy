@@ -1,7 +1,10 @@
 //#include <iostream>
 //#include <vector>
+//#include <queue>
+//#include <stack>
 //
 //using namespace std;
+//
 //
 //int main()
 //{
@@ -13,7 +16,8 @@
 //	cin >> N;
 //
 //	vector<int> build(N + 1);
-//	vector<vector<int>> preBuild(N + 1, vector<int>());
+//	vector<vector<int>> postBuild(N + 1, vector<int>());
+//	vector<int> indegree(N + 1, 0);
 //
 //	for (int i = 1; i <= N; i++)
 //	{
@@ -29,15 +33,45 @@
 //				break;
 //			}
 //
-//			preBuild[i].push_back(temp);
+//			postBuild[temp].push_back(i);
+//			indegree[i]++;
 //		}
 //	}
 //
-//	vector<int> buildTime(N+1,0);
+//	vector<int> tech(N + 1, 0);
+//	queue<int> q;
 //
 //	for (int i = 1; i <= N; i++)
 //	{
-//		for(int n : preBuild)
+//		if (indegree[i] == 0)
+//		{
+//			q.push(i);
+//		}
 //	}
 //
+//	int priority = 0;
+//
+//	while (!q.empty())
+//	{
+//		int cur = q.front();
+//
+//		q.pop();
+//
+//		for (int n : postBuild[cur])
+//		{
+//			indegree[n]--;
+//
+//			tech[n] = max(tech[n], tech[cur] + build[cur]);
+//
+//			if (indegree[n] == 0)
+//			{
+//				q.push(n);
+//			}
+//		}
+//	}
+//
+//	for (int i = 1; i <= N; i++)
+//	{
+//		cout << tech[i] + build[i] << "\n";
+//	}
 //}
