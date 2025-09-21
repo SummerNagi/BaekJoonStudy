@@ -151,10 +151,24 @@
     <ClCompile Include="1197.cpp" />
     <ClCompile Include="17472.cpp" />
     <ClCompile Include="1647.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="14425.cpp" />
     <ClCompile Include="5052.cpp" />
     <ClCompile Include="14725.cpp" />
     <ClCompile Include="16398.cpp" />
     <ClCompile Include="1967.cpp" />
+=======
+    <ClCompile Include="2623.cpp" />
+    <ClCompile Include="1032.cpp" />
+    <ClCompile Include="1037.cpp" />
+    <ClCompile Include="1414.cpp" />
+    <ClCompile Include="20040.cpp" />
+    <ClCompile Include="4195.cpp" />
+    <ClCompile Include="1922.cpp" />
+    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="1091.cpp" />
+    <ClCompile Include="1068.cpp" />
+    <ClCompile Include="7432.cpp" />
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

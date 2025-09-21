@@ -131,9 +131,13 @@
     <ClCompile Include="1011.cpp" />
     <ClCompile Include="1016.cpp" />
     <ClCompile Include="1027.cpp" />
+    <ClCompile Include="1032.cpp" />
     <ClCompile Include="1033.cpp" />
+    <ClCompile Include="1037.cpp" />
     <ClCompile Include="1038.cpp" />
     <ClCompile Include="1043.cpp" />
+    <ClCompile Include="1068.cpp" />
+    <ClCompile Include="1091.cpp" />
     <ClCompile Include="1092.cpp" />
     <ClCompile Include="10942.cpp" />
     <ClCompile Include="10989.cpp" />
@@ -176,7 +180,11 @@
     <ClCompile Include="13549.cpp" />
     <ClCompile Include="1389.cpp" />
     <ClCompile Include="14003.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="14425.cpp" />
+=======
+    <ClCompile Include="1414.cpp" />
+>>>>>>> Stashed changes
     <ClCompile Include="1456.cpp" />
     <ClCompile Include="14725.cpp" />
     <ClCompile Include="14728.cpp" />
@@ -204,10 +212,15 @@
     <ClCompile Include="1781.cpp" />
     <ClCompile Include="1799.cpp" />
     <ClCompile Include="1854.cpp" />
+    <ClCompile Include="1922.cpp" />
     <ClCompile Include="1948.cpp" />
     <ClCompile Include="19532.cpp" />
     <ClCompile Include="1958.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="1967.cpp" />
+=======
+    <ClCompile Include="20040.cpp" />
+>>>>>>> Stashed changes
     <ClCompile Include="2109.cpp" />
     <ClCompile Include="21568.cpp" />
     <ClCompile Include="2212.cpp" />
@@ -220,13 +233,16 @@
     <ClCompile Include="2470.cpp" />
     <ClCompile Include="2565.cpp" />
     <ClCompile Include="2580.cpp" />
+    <ClCompile Include="2623.cpp" />
     <ClCompile Include="2629.cpp" />
     <ClCompile Include="2812.cpp" />
     <ClCompile Include="3955.cpp" />
+    <ClCompile Include="4195.cpp" />
     <ClCompile Include="4811.cpp" />
     <ClCompile Include="5052.cpp" />
     <ClCompile Include="5557.cpp" />
     <ClCompile Include="5582.cpp" />
+    <ClCompile Include="7432.cpp" />
     <ClCompile Include="7579.cpp" />
     <ClCompile Include="9251.cpp" />
     <ClCompile Include="1629.cpp" />
@@ -279,6 +295,7 @@
     <ClCompile Include="9465.cpp" />
     <ClCompile Include="9653.cpp" />
     <ClCompile Include="9663.cpp" />
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="색종이 접기.cpp" />
   </ItemGroup>
