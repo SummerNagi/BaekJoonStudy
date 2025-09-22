@@ -168,5 +168,8 @@
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="색종이 접기.cpp" />
     <ClCompile Include="1765.cpp" />
+    <ClCompile Include="1238.cpp" />
+    <ClCompile Include="10868.cpp" />
+    <ClCompile Include="11505.cpp" />
   </ItemGroup>
 </Project>

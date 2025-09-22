@@ -1,108 +1,86 @@
-// #include <iostream>
-// #include <vector>
-// #include <queue>
-// #include <algorithm>
-// #include <climits>
-// 
-// #define INF INT_MAX
-// 
-// using namespace std;
-// 
-// // 노드 정보를 담을 구조체
-// struct Node
-// {
-// 	int city;
-// 	int cost;
-// };
-// 
-// // 우선순위 큐를 위한 비교 연산자
-// struct Compare
-// {
-// 	bool operator()(const Node& a, const Node& b)
-// 	{
-// 		return a.cost > b.cost;
-// 	}
-// };
-// 
-// // 다익스트라 알고리즘 함수
-// vector<int> dijkstra(int start, int N, const vector<vector<pair<int, int>>>& graph)
-// {
-// 	vector<int> dist(N + 1, INF);
-// 	priority_queue<Node, vector<Node>, Compare> pq;
-// 
-// 	dist[start] = 0;
-// 	pq.push({ start, 0 });
-// 
-// 	while (!pq.empty())
-// 	{
-// 		Node currentNode = pq.top();
-// 		pq.pop();
-// 
-// 		int currentCity = currentNode.city;
-// 		int currentCost = currentNode.cost;
-// 
-// 		if (dist[currentCity] < currentCost)
-// 		{
-// 			continue;
-// 		}
-// 
-// 		for (const auto& nextNode : graph[currentCity])
-// 		{
-// 			int nextCity = nextNode.first;
-// 			int nextCost = nextNode.second;
-// 
-// 			if (dist[nextCity] > dist[currentCity] + nextCost)
-// 			{
-// 				dist[nextCity] = dist[currentCity] + nextCost;
-// 				pq.push({ nextCity, dist[nextCity] });
-// 			}
-// 		}
-// 	}
-// 
-// 	return dist;
-// }
-// 
-// int main()
-// {
-// 	ios::sync_with_stdio(false);
-// 	cin.tie(NULL);
-// 	cout.tie(NULL);
-// 
-// 	int N, M, K;
-// 	cin >> N >> M >> K;
-// 
-// 	vector<vector<pair<int, int>>> costs(N + 1);
-// 	vector<vector<pair<int, int>>> reverseCosts(N + 1);
-// 
-// 	for (int i = 0; i < M; i++)
-// 	{
-// 		int a, b, c;
-// 		cin >> a >> b >> c;
-// 
-// 		costs[a].push_back({ b, c });
-// 		reverseCosts[b].push_back({ a, c }); // 역방향 그래프 생성
-// 	}
-// 
-// 	// K에서 각 도시로 가는 최단 거리 계산
-// 	vector<int> KtoI = dijkstra(K, N, costs);
-// 
-// 	// 각 도시에서 K로 가는 최단 거리 계산 (역방향 그래프 활용)
-// 	vector<int> ItoK = dijkstra(K, N, reverseCosts);
-// 
-// 	int maxTime = INT_MIN;
-// 
-// 	for (int i = 1; i <= N; i++)
-// 	{
-// 		if (i == K)
-// 		{
-// 			continue;
-// 		}
-// 
-// 		if (KtoI[i] != INF && ItoK[i] != INF)
-// 		{
-// 			maxTime = max(maxTime, KtoI[i] + ItoK[i]);
-// 		}
-// 	}
-// 
-// 	cout << maxTime;
-// }
+//#include <iostream>
+//#include <vector>
+//#include <cmath>
+//
+//using namespace std;
+//
+//int main()
+//{
+//	ios::sync_with_stdio(false);
+//	cin.tie(NULL);
+//	cout.tie(NULL);
+//
+//	int N, M, K;
+//	cin >> N >> M >> K;
+//
+//	long long k = ceil((double)log(N) / log(2));
+//
+//	vector<long long> st((long long)pow(2, k + 1), 0);
+//
+//	long long base = pow(2, k);
+//	long long end = base + N - 1;
+//
+//	for (int i = 0; i < N; i++)
+//	{
+//		long long temp;
+//		cin >> temp;
+//
+//		st[base + i] = temp;
+//	}
+//
+//	int i = (int)pow(2, k + 1) - 1;
+//	while (i != 1)
+//	{
+//		st[i / 2] += st[i];
+//		i--;
+//	}
+//
+//	int oper = M + K;
+//
+//	while (oper--)
+//	{
+//		long long a, b, c;
+//		cin >> a >> b >> c;
+//
+//		if (a == 1)
+//		{
+//			long long origin = st[base + b - 1];
+//			long long delta = c - origin;
+//
+//			st[base + b - 1] = c;
+//
+//			long long s = base + b - 1;
+//			while (s != 1)
+//			{
+//				s /= 2;
+//				st[s] += delta;
+//			}
+//		}
+//		else
+//		{
+//			long long start_idx = base + b - 1;
+//			long long end_idx = base + c - 1;
+//
+//			long long result = 0;
+//
+//			while (start_idx <= end_idx)
+//			{
+//				if (start_idx % 2 == 1)
+//				{
+//					result += st[start_idx];
+//				}
+//
+//				if (end_idx % 2 == 0)
+//				{
+//					result += st[end_idx];
+//				}
+//
+//				start_idx = (start_idx + 1) / 2;
+//				end_idx = (end_idx - 1) / 2;
+//			}
+//
+//			cout << result << '\n';
+//		}
+//
+//	}
+//}
