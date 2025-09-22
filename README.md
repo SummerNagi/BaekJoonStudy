@@ -12,5 +12,6 @@ Push Statistics:
 | flatload | 44 |
 | nimnoeyheel | 29 |
 | yagae12 | 18 |
+| nagi | 1 |
 
 Some concluding text.
