@@ -180,11 +180,8 @@
     <ClCompile Include="13549.cpp" />
     <ClCompile Include="1389.cpp" />
     <ClCompile Include="14003.cpp" />
-<<<<<<< Updated upstream
     <ClCompile Include="14425.cpp" />
-=======
     <ClCompile Include="1414.cpp" />
->>>>>>> Stashed changes
     <ClCompile Include="1456.cpp" />
     <ClCompile Include="14725.cpp" />
     <ClCompile Include="14728.cpp" />
@@ -209,6 +206,7 @@
     <ClCompile Include="17404.cpp" />
     <ClCompile Include="1744.cpp" />
     <ClCompile Include="17472.cpp" />
+    <ClCompile Include="1765.cpp" />
     <ClCompile Include="1781.cpp" />
     <ClCompile Include="1799.cpp" />
     <ClCompile Include="1854.cpp" />
@@ -216,11 +214,8 @@
     <ClCompile Include="1948.cpp" />
     <ClCompile Include="19532.cpp" />
     <ClCompile Include="1958.cpp" />
-<<<<<<< Updated upstream
     <ClCompile Include="1967.cpp" />
-=======
     <ClCompile Include="20040.cpp" />
->>>>>>> Stashed changes
     <ClCompile Include="2109.cpp" />
     <ClCompile Include="21568.cpp" />
     <ClCompile Include="2212.cpp" />
