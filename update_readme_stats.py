@@ -18,9 +18,15 @@ def get_push_stats():
         
         EXCLUDE_BOT_NAME = "github-actions[bot]" 
 
+        RAKHAM_COUNT = 0
+        
         for author in authors:
             if author and author != EXCLUDE_BOT_NAME:
-                author_counts[author] = author_counts.get(author, 0) + 1
+                if author == "nagi" or author == "flatload":
+                    RAKHAM_COUNT = RAMHAM_COUNT + author_counts.get(author, 0) + 1;
+                    author_counts["락햄"] = RAKHAM_COUNT;
+                else:
+                    author_counts[author] = author_counts.get(author, 0) + 1
         # 횟수를 기준으로 내림차순 정렬
         sorted_authors = sorted(author_counts.items(), key=lambda item: item[1], reverse=True)
         
@@ -29,12 +35,8 @@ def get_push_stats():
         stats_content.append("")
         stats_content.append("| Contributor | Pushes |")
         stats_content.append("| ----------- | ------ |")
-        rakham = 0
+    
         for name, count in sorted_authors:
-            if name == "nagi" or name == "flatload":
-                rakham = rakham + count
-                stats_content.append(f"| 락햄 | {rakham} |") 
-            else:
                 stats_content.append(f"| {name} | {count} |")
         stats_content.append("")
         
