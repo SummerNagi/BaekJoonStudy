@@ -23,7 +23,7 @@ def get_push_stats():
         for author in authors:
             if author and author != EXCLUDE_BOT_NAME:
                 if author == "nagi" or author == "flatload":
-                    RAKHAM_COUNT = RAMHAM_COUNT + author_counts.get(author, 0) + 1;
+                    RAKHAM_COUNT = RAKHAM_COUNT + author_counts.get(author, 0) + 1;
                     author_counts["락햄"] = RAKHAM_COUNT;
                 else:
                     author_counts[author] = author_counts.get(author, 0) + 1
