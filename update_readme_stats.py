@@ -36,7 +36,7 @@ def get_push_stats():
 
             if author and author != EXCLUDE_BOT_NAME and message != EXCLUDE_COMMIT_MSG:
 
-                if author == "nagi" or author == "flatroad":
+                if author == "nagi" or author == "flatload":
                     author_counts["락햄"] = author_counts.get("락햄", 0) + 1
                 else:
                     author_counts[author] = author_counts.get(author, 0) + 1
