@@ -33,7 +33,7 @@ def get_push_stats():
         for name, count in sorted_authors:
             if name == "nagi" or name == "flatroad":
                 rakham = rakham + count
-                stats_content.append(f"| 락햄 | " + rakham +" |")    
+                stats_content.append(f"| 락햄 | {rakham} |")    
             stats_content.append(f"| {name} | {count} |")
         stats_content.append("")
         
