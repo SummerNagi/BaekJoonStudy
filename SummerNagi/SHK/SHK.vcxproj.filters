@@ -164,8 +164,6 @@
     <ClCompile Include="9465.cpp" />
     <ClCompile Include="9653.cpp" />
     <ClCompile Include="9663.cpp" />
-    <ClCompile Include="FileName.cpp" />
-    <ClCompile Include="Test.cpp" />
     <ClCompile Include="색종이 접기.cpp" />
     <ClCompile Include="1765.cpp" />
     <ClCompile Include="1238.cpp" />
@@ -173,5 +171,8 @@
     <ClCompile Include="11505.cpp" />
     <ClCompile Include="2357.cpp" />
     <ClCompile Include="1865.cpp" />
+    <ClCompile Include="11437.cpp" />
+    <ClCompile Include="3584.cpp" />
+    <ClCompile Include="11438.cpp" />
   </ItemGroup>
 </Project>
