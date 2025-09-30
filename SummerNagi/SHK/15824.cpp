@@ -1,90 +1,84 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-#define mod 1000000007
-
-using namespace std;
-
-vector<int> food;
-
-unsigned long long myPow(int n)
-{
-	if (n == 0)
-	{
-		return 1;
-	}
-
-	unsigned long long temp = (myPow(n / 2));
-
-	unsigned long long result = (temp * temp) % mod;
-
-	if (n % 2 == 1)
-	{
-		result = (result * 2) % mod;
-	}
-
-	return result;
-}
-
-
-int main()
-{
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
-
-	int N;
-	cin >> N;
-
-	if (N == 1)
-	{
-		cout << 0;
-		return 0;
-	}
-
-	food.resize(N);
-
-	for (int i = 0; i < N; i++)
-	{
-		cin >> food[i];
-	}
-
-	sort(food.begin(), food.end());
-
-	// ÃÖ´ë°ªÀ» K·ÎÇÏ´Â Á¶ÇÕÀÇ ¼ö 2^N-1?
-	// A = ÃÖ´ë - ÃÖ¼Ò ÀÇ ÃÑÇÕ, B = Á¶ÇÕÀÇ °³¼ö / (A * B) % mod = ( A % mod * B % mod ) % mod
-	unsigned long long answer = 0;
-
-	// A = (Á¶ÇÕÀÇ ÃÖ´ë°ªµéÀÇ ÃÑÇÕ) - (Á¶ÇÕÀÇ ÃÖ¼Ò°ªµéÀÇ ÃÑÇÕ)
-	// (Á¶ÇÕÀÇ ÃÖ´ë°ªµéÀÇ ÃÑÇÕ) = ¿ä¼Ò * ¿ä¼Òº°·Î ÃÖ´ë°ªÀÌ µÇ´Â Á¶ÇÕÀÇ ¼ö
-	// (Á¶ÇÕÀÇ ÃÖ¼Ò°ªµéÀÇ ÃÑÇÕ) = ¿ä¼Ò * ¿ä¼Òº°·Î ÃÖ¼Ò°ªÀÌ µÇ´Â Á¶ÇÕÀÇ ¼ö
-
-	// i¸¦ ÃÖ´ë·ÎÇÏ´Â Á¶ÇÕÀÇ ¼ö
-	// Á¦ÀÏ ÀÛÀº ¼ö¸¦ ÃÖ´ë·ÎÇÏ´Â Á¶ÇÕÀº ¾øÀ½
-
-	unsigned long long temp1 = 0;
-
-	unsigned long long  count = myPow(N - 1);
-
-	for (int i = 0; i < N; i++)
-	{
-		unsigned long long max_count = myPow(i);
-
-		// food[i]°¡ ÃÖ¼Ò°ªÀ¸·Î ±â¿©ÇÏ´Â È½¼ö: 2^(N-1-i)
-		unsigned long long min_count = myPow(N - 1 - i);
-
-		// °è¼ö(Factor) °è»ê: (ÃÖ´ë È½¼ö - ÃÖ¼Ò È½¼ö) % mod
-		// »¬¼À °á°ú°¡ À½¼ö°¡ µÇÁö ¾Êµµ·Ï mod¸¦ ´õÇÕ´Ï´Ù: (A - B + K) % K
-		long long factor = (max_count - min_count + mod) % mod;
-
-		// ÃÖÁ¾ Ç× °è»ê: (food[i] * factor) % mod
-		// food[i]´Â intÀÌÁö¸¸, °ö¼À ¿À¹öÇÃ·Î¿ì ¹æÁö¸¦ À§ÇØ long longÀ¸·Î ¸í½ÃÀû Çü º¯È¯ ÈÄ % mod Àû¿ë
-		unsigned long long term = ((unsigned long long)food[i] * factor) % mod;
-
-		// ÃÖÁ¾ ÇÕ»ê: µ¡¼À ÈÄ % mod Àû¿ë
-		answer = (answer + term) % mod;
-	}
-
-	cout << (temp1 - temp2) % mod;
-}
+ï»¿//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//
+//#define mod 1000000007
+//
+//using namespace std;
+//
+//vector<int> food;
+//
+//unsigned long long myPow(int n)
+//{
+//	if (n == 0)
+//	{
+//		return 1;
+//	}
+//
+//	unsigned long long temp = (myPow(n / 2));
+//
+//	unsigned long long result = (temp * temp) % mod;
+//
+//	if (n % 2 == 1)
+//	{
+//		result = (result * 2) % mod;
+//	}
+//
+//	return result;
+//}
+//
+//
+//int main()
+//{
+//	ios::sync_with_stdio(false);
+//	cin.tie(NULL);
+//	cout.tie(NULL);
+//
+//	int N;
+//	cin >> N;
+//
+//	if (N == 1)
+//	{
+//		cout << 0;
+//		return 0;
+//	}
+//
+//	food.resize(N);
+//
+//	for (int i = 0; i < N; i++)
+//	{
+//		cin >> food[i];
+//	}
+//
+//	sort(food.begin(), food.end());
+//
+//	// ìµœëŒ€ê°’ì„ Kë¡œí•˜ëŠ” ì¡°í•©ì˜ ìˆ˜ 2^N-1Â 
+//	// A = ìµœëŒ€ - ìµœì†Œ ì˜ ì´í•©, B = ì¡°í•©ì˜ ê°œìˆ˜ / (A * B) % mod = ( A % mod * B % mod ) % mod
+//	unsigned long long answer = 0;
+//
+//	// A = (ì¡°í•©ì˜ ìµœëŒ€ê°’ë“¤ì˜ ì´í•©) - (ì¡°í•©ì˜ ìµœì†Œê°’ë“¤ì˜ ì´í•©)
+//	// (ì¡°í•©ì˜ ìµœëŒ€ê°’ë“¤ì˜ ì´í•©) = ìš”ì†Œ * ìš”ì†Œë³„ë¡œ ìµœëŒ€ê°’ì´ ë˜ëŠ” ì¡°í•©ì˜ ìˆ˜
+//	// (ì¡°í•©ì˜ ìµœì†Œê°’ë“¤ì˜ ì´í•©) = ìš”ì†Œ * ìš”ì†Œë³„ë¡œ ìµœì†Œê°’ì´ ë˜ëŠ” ì¡°í•©ì˜ ìˆ˜
+//
+//	// ië¥¼ ìµœëŒ€ë¡œí•˜ëŠ” ì¡°í•©ì˜ ìˆ˜
+//	// ì œì¼ ì‘ì€ ìˆ˜ë¥¼ ìµœëŒ€ë¡œí•˜ëŠ” ì¡°í•©ì€ ì—†ìŒ
+//
+//	unsigned long long temp1 = 0;
+//
+//	unsigned long long  count = myPow(N - 1);
+//
+//	for (int i = 0; i < N; i++)
+//	{
+//		unsigned long long max_count = myPow(i);
+//
+//		unsigned long long min_count = myPow(N - 1 - i);
+//
+//		long long factor = (max_count - min_count + mod) % mod;
+//
+//		unsigned long long term = ((unsigned long long)food[i] * factor) % mod;
+//
+//		answer = (answer + term) % mod;
+//	}
+//
+//	cout << answer;
+//}
