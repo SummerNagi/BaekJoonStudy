@@ -8,9 +8,9 @@ Push Statistics:
 
 | Contributor | Pushes |
 | ----------- | ------ |
-| shinhong-gyu | 117 |
 | 락햄 | 48 |
-| nimnoeyheel | 29 |
-| yagae12 | 18 |
+| shinhong-gyu | 1 |
+| yagae12 | 1 |
+| nimnoeyheel | 1 |
 
 Some concluding text.
