@@ -38,11 +38,11 @@ def get_push_stats():
                if author == "nagi" or author == "flatload":
                     author_counts["락햄"] = author_counts.get("락햄", 0) + 1
                elif author == "shinhong-gyu":
-                    author_counts[author] = author_counts.get("신홍규", 0) + 1
+                    author_counts["신홍규"] = author_counts.get("신홍규", 0) + 1
                elif author == "nimnoeyheel":
-                   author_counts[author] = author_counts.get("이현민", 0) + 1
+                   author_counts["이현민"] = author_counts.get("이현민", 0) + 1
                elif author == "yagae12" :
-                   author_counts[author] = author_counts.get("강경원", 0) + 1
+                   author_counts["강경원원"] = author_counts.get("강경원", 0) + 1
 
         sorted_authors = sorted(author_counts.items(), key=lambda item: item[1], reverse=True)
         
