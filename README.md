@@ -8,9 +8,9 @@ Push Statistics:
 
 | Contributor | Pushes |
 | ----------- | ------ |
+| 신홍규 | 117 |
 | 락햄 | 48 |
-| shinhong-gyu | 1 |
-| yagae12 | 1 |
-| nimnoeyheel | 1 |
+| 이현민 | 29 |
+| 강경원 | 18 |
 
 Some concluding text.
