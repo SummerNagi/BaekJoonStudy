@@ -42,7 +42,7 @@ def get_push_stats():
                elif author == "nimnoeyheel":
                    author_counts["이현민"] = author_counts.get("이현민", 0) + 1
                elif author == "yagae12" :
-                   author_counts["강경원원"] = author_counts.get("강경원", 0) + 1
+                   author_counts["강경원"] = author_counts.get("강경원", 0) + 1
 
         sorted_authors = sorted(author_counts.items(), key=lambda item: item[1], reverse=True)
         
