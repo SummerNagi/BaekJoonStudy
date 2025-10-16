@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KGW", "KGW\KGW.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JS", "JS\JS.vcxproj", "{BC481922-8D4D-491D-95C5-715A41C9AEB9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHJ", "CHJ\CHJ.vcxproj", "{1BF61B0E-1997-449D-AB6A-7125043545FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{BC481922-8D4D-491D-95C5-715A41C9AEB9}.Release|x64.Build.0 = Release|x64
 		{BC481922-8D4D-491D-95C5-715A41C9AEB9}.Release|x86.ActiveCfg = Release|Win32
 		{BC481922-8D4D-491D-95C5-715A41C9AEB9}.Release|x86.Build.0 = Release|Win32
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Debug|x64.ActiveCfg = Debug|x64
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Debug|x64.Build.0 = Debug|x64
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Debug|x86.Build.0 = Debug|Win32
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Release|x64.ActiveCfg = Release|x64
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Release|x64.Build.0 = Release|x64
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Release|x86.ActiveCfg = Release|Win32
+		{1BF61B0E-1997-449D-AB6A-7125043545FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
