@@ -8,10 +8,10 @@ Push Statistics:
 
 | Contributor | Pushes |
 | ----------- | ------ |
-| 신홍규 | 130 |
+| 신홍규 | 131 |
 | 락햄 | 48 |
 | 이현민 | 29 |
-| 최형재 | 23 |
+| 최형재 | 25 |
 | 강경원 | 18 |
 
 Some concluding text.

@@ -275,6 +275,7 @@
     <ClCompile Include="26097.cpp" />
     <ClCompile Include="2623.cpp" />
     <ClCompile Include="2629.cpp" />
+    <ClCompile Include="2696.cpp" />
     <ClCompile Include="27896.cpp" />
     <ClCompile Include="2812.cpp" />
     <ClCompile Include="2941.cpp" />
