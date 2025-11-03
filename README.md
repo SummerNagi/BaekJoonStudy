@@ -11,7 +11,7 @@ Push Statistics:
 | 신홍규 | 136 |
 | 락햄 | 48 |
 | 이현민 | 29 |
-| 최형재 | 27 |
+| 최형재 | 28 |
 | 강경원 | 18 |
 
 Some concluding text.
