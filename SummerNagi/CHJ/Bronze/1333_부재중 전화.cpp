@@ -1,0 +1,46 @@
+#include <iostream>
+#include <map>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
+
+	int N, L, D, time = 0, res = 0;
+	cin >> N >> L >> D;
+
+	for (int i = 1; i <= N; i++)
+	{
+		for (int j = 1; j <= L; j++)
+			time++;
+		for (int t = 1; t <= 5; t++)
+		{
+			if ((time % D) == 0)
+			{
+				res = time;
+				i = N;
+				break;
+			}
+			time++;
+		}
+
+		if (i == N && res == 0)
+		{
+			while (1)
+			{
+				if ((time % D) == 0)
+				{
+					res = time;
+					break;
+				}
+				time++;
+			}
+		}
+	}
+	cout << res;
+	return 0;
+}
