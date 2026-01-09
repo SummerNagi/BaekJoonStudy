@@ -1,0 +1,65 @@
+#include <iostream>
+#include <string>
+#include <deque>
+
+using namespace std;
+
+int main()
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+
+	string s = "";
+	
+	getline(cin, s);
+
+	deque<char> dque;
+	bool flag = false;
+
+	auto rprint = [&dque]() 
+	{
+		while (!dque.empty())
+		{
+			cout << dque.back();
+			dque.pop_back();
+		}
+	};
+
+	auto print = [&dque]()
+		{
+			while (!dque.empty())
+			{
+				cout << dque.front();
+				dque.pop_front();
+			}
+		};
+
+	for (int i = 0; i < s.size(); ++i)
+	{
+		if (flag == false && s[i] == ' ')
+		{
+			rprint();
+			cout << ' ';
+		}
+		else if (s[i] == '<')
+		{
+			rprint();
+			flag = true;
+			dque.push_back(s[i]);
+		}
+		else if (s[i] == '>')
+		{
+			print();
+			flag = false;
+			cout << '>';
+		}
+		else
+		{
+			dque.push_back(s[i]);
+		}
+	}
+
+	rprint();
+
+	return (0);
+}
